@@ -131,4 +131,3 @@ Producer (Go) ---> Kafka Topic ---> Consumer (Go)
 ```
 
 - Messages are serialized with **Protobuf**
-- Schema IDs are embedded in messages for automatic deserialization
