@@ -4,6 +4,8 @@ This repository contains a **Kafka producer and consumer** implemented in **Go**
 
 ---
 
+
+
 ## Prerequisites
 
 - Go 1.21+
@@ -13,14 +15,11 @@ This repository contains a **Kafka producer and consumer** implemented in **Go**
 ```bash
 go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
 ```
-
 > **Note:** Make sure the Go binaries path is in your `PATH` so `protoc-gen-go` can be found:
 
 ````bash
 export PATH=$PATH:$(go env GOPATH)/bin
-
-
-- Access to a Confluent Cloud Kafka cluster and Schema Registry
+````
 
 ---
 
