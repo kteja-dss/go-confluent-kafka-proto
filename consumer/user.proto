@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option go_package = "./;main";
+
+import "google/protobuf/any.proto";
+
+message Preferences {
+  string language = 1;
+  bool dark_mode = 2;
+}
+
+message User {
+  string name = 1;
+  int64 favorite_number = 2;
+  string favorite_color = 3;
+  google.protobuf.Any extra_data = 4;
+}
